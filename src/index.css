@@ -45,6 +45,15 @@ textarea {
     resize: none;
 }
 
+button {
+    border: none;
+    color: #fff;
+}
+
+span {
+    transition: all ease-in-out .3s;
+}
+
 /* GENERAL ELEMENTS */
 
 .container {
@@ -70,7 +79,7 @@ textarea {
     width: 20%;
     height: 8px;
     background: var(--primary-color);
-    bottom: 0;
+    bottom: -10px;
     left: 40%;
     position: absolute;
     margin: 0 auto;
@@ -122,8 +131,6 @@ textarea {
 .presentation {
     display: flex;
     overflow: hidden;
-    /* grid-template-columns: 1fr 1fr 1fr; */
-    /* gap: 5rem; */
 }
 
 .presentation__column1 {
@@ -131,7 +138,11 @@ textarea {
     padding: 0 0 0 1.5rem;
     margin-top: 3.75rem;
     max-height: 500px;
-    width: 100%;
+    width: 150%;
+}
+
+.presentation__column1 h3 {
+    font-weight: 400;
 }
 
 .presentation__column2 {
@@ -203,6 +214,10 @@ textarea {
     position: relative;
 }
 
+.about .logo {
+    width:65px;
+}
+
 .portfolio {
     margin: 6.25rem 0;
     position: relative;
@@ -237,6 +252,10 @@ textarea {
     position: absolute;
     bottom: -10%;
     right: -1%;
+}
+
+.portfolio .logo {
+    width: 65px;
 }
 
 .service__cards {
@@ -388,7 +407,6 @@ textarea.form__input  {
 }
 
 .footer__our-contacts {
-    text-align: center;
     opacity: .8;
 }
 
@@ -479,6 +497,10 @@ textarea.form__input  {
 }
 
 .service-page .service-page__description {
+    margin-bottom: 6rem;
+}
+
+.service-page .service-page__description::a {
     margin: 2rem auto;
     border-left: 4px solid var(--primary-color);
 }
@@ -502,23 +524,29 @@ textarea.form__input  {
 }
 
 .service-page__budget {
-    background: var(--primary-color);
+    background: green;
     padding: 1rem 1rem 1rem 1.5rem;
-    border-radius: 0 10px 10px 0;
-    margin-left: -15px;
+    border-radius: 0 30px 30px 30px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 .service-page .service-page__wpp-icon i {
     font-size: 2rem;
     transition: all ease-in .3s;
-    background: var(--primary-color);
+    background: green;
     padding: 1rem 1rem;
+    margin-top: 10px;
     border-radius: 50%;
 }
 
 .service-page__budget {
     transition: all ease-in .3s;
 }
+
+.service-page .logo {
+    margin-top: 4rem;
+} 
 
 @media only screen and (max-width: 58.75rem) {
 

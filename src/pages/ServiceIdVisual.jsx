@@ -13,9 +13,7 @@ const ServiceIdVisual = () => {
             <Title title="Idêntidade Visual" />
 
             <div className="service-page__description">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat voluptates veritatis nobis a aliquam placeat neque, laboriosam consequatur corporis exercitationem quaerat sit ipsa unde odit maiores quidem ipsum impedit aliquid?
-                Consequatur nam quibusdam quia, magni incidunt molestiae ea recusandae est eius. Eveniet delectus quod voluptatum eligendi incidunt esse similique. Consectetur quibusdam corporis animi, quaerat possimus id iure illo unde eveniet?
-                Consequuntur vel, adipisci numquam eligendi odit veritatis! Minima laborum sint obcaecati, atque nemo dolorum nulla quaerat autem beatae vitae iusto eos eius tenetur aspernatur consequuntur. Laboriosam ullam odit ducimus aspernatur?
+                O serviço de identidade visual é um serviço onde nossa Agência cria uma logo e todos os componentes que compõe uma identidade visual para que sua marca tenha e passe a melhor experiência que o seu cliente possa ter.
             </div>
 
             <a href="https://api.whatsapp.com/send?phone=5544997490242&text=Ol%C3%A1,%20gostaria%20de%20pedir%20um%20or%C3%A7amento%20de%20Servi%C3%A7o%20de%20Idêntidade%20Visual" className="service-page__wpp-icon">

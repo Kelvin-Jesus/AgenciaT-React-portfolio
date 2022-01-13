@@ -36,8 +36,6 @@ const Services = () => {
                 />
 
             </div>
-
-
             
         </section>
     );

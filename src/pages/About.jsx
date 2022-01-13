@@ -15,19 +15,15 @@ const About = () => {
 
                 <Title title="Sobre" sectionName="about__title" />
                 <main className="about__content">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil dolor deleniti dolorum illo assumenda, debitis totam, vitae quo eligendi blanditiis vero quod fuga voluptates necessitatibus saepe tempora quaerat, doloribus voluptatem.
-                    Libero nemo reiciendis omnis explicabo ducimus, adipisci blanditiis minima, sapiente neque, totam vel culpa at repellat! Modi architecto delectus, exercitationem laborum, ducimus animi ex corporis, veritatis quos similique quaerat commodi.
-                    Vitae doloremque aliquam nobis placeat perspiciatis ab cumque rem minus enim, fuga, rerum molestias ratione dicta magnam numquam asperiores odio excepturi. Cumque sit, vitae fuga at accusamus quia aspernatur ipsa.
+                    Olá, somos a Agencia T9, nós somos uma agencia de design responsável por deixar sua marca mais atraente aos olhos do seu cliente.
+                    Nossa agencia presta serviços como Identidade Visual, Postagens para Instagram, Facebook e outras redes sociais que sua marca/empresa tenha... E Edição de Vídeo.
+
+                    Além de postagens para suas redes sociais nós também podemos fazer: Capa para seu canal no youtube; Thumbnails para seus vídeo no youtube; Capa para Ebook; Design para Ebook.
                 </main>
 
             </div>
 
-            <svg className="bubble-icon2" width="89" height="164" viewBox="0 0 89 164" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="62.5" cy="26.5" r="26.5" fill="#3600AA"/>
-                <circle cx="44.5" cy="119.5" r="44.5" fill="#3600AA"/>
-            </svg>
-
-            <Logo />
+            <img class="logo logo--center" src="/assets/icone.svg" alt="Logo Agência T9" />
             
         </section>
     )

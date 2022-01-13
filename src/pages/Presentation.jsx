@@ -9,13 +9,12 @@ const Presentation = (props) => {
                 <h1 className="title">
                     Olá,<br/> 
                     somos a <br/>
-                    <span className="primary-color-text">Agencia <br/>Trilogia</span>!
+                    <span className="primary-color-text">Agencia T9</span>!
                 </h1>
                 <h3>Seja Bem-Vindo!</h3>
             </div>
             <div className="presentation__column2">
-                <img src={`${imgsPath}/Foto.png`} className="presentation__img-item" alt="" />
-                <img src={`${imgsPath}/Foto.png`} className="presentation__img-item" alt="" />
+                <img src={`${imgsPath}/Foto.png`} className="presentation__img-item" alt="Pessoas trabalhando na agência" />
             </div>
 
             <div className="presentation__column3">

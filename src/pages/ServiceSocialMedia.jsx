@@ -13,15 +13,16 @@ const ServiceSocialMedia = () => {
             <Title title="Social Media" />
 
             <div className="service-page__description">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat voluptates veritatis nobis a aliquam placeat neque, laboriosam consequatur corporis exercitationem quaerat sit ipsa unde odit maiores quidem ipsum impedit aliquid?
-                Consequatur nam quibusdam quia, magni incidunt molestiae ea recusandae est eius. Eveniet delectus quod voluptatum eligendi incidunt esse similique. Consectetur quibusdam corporis animi, quaerat possimus id iure illo unde eveniet?
-                Consequuntur vel, adipisci numquam eligendi odit veritatis! Minima laborum sint obcaecati, atque nemo dolorum nulla quaerat autem beatae vitae iusto eos eius tenetur aspernatur consequuntur. Laboriosam ullam odit ducimus aspernatur?
+                Social media é um serviço onde nós designers da Agência T9 fazemos: Postagens para suas redes sociais como Instagram, Facebook, Linkedin e outras redes sociais que sua marca tenha...
+                Fazemos também capas para o seu canal no youtube, capa para o Facebook, capa para o Linkedin, thumbnails para seus vídeos, Capas para Ebook, Design de Ebook.
             </div>
 
             <a href="https://api.whatsapp.com/send?phone=5544997490242&text=Ol%C3%A1,%20gostaria%20de%20pedir%20um%20or%C3%A7amento%20de%20Servi%C3%A7o%20de%20Social%20Media" className="service-page__wpp-icon">
                 <i class="fab fa-whatsapp"></i>
                 <div className="service-page__budget">Pedir Orçamento</div>
             </a>
+
+            <img class="logo logo--center" src="/assets/agencia-t9.svg" alt="Logo Agência T9" />
 
         </main>
     );

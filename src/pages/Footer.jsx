@@ -20,7 +20,7 @@ const Footer = () => {
                     <h3 className="footer__our-contact__title">Nosso contato</h3>
                     <div className="footer__our-contacts">
                         <p className="footer__contact-item">(44) 9 9749-0242</p>
-                        <p className="footer__contact-item">agenciatrilogia@gmail.com</p>
+                        <p className="footer__contact-item">agenciat9@agenciat9.com.br</p>
                     </div>
 
                 </div>
@@ -29,7 +29,7 @@ const Footer = () => {
                     <h3 className="footer__socials__title">Segue a Gente!</h3>
                     <div className="footer__socials__icons">
                         <a
-                            href="https://instagram.com" 
+                            href="https://instagram.com/agenciat9" 
                             target="_blank" 
                             className="footer__socials__icon" 
                             rel="noreferrer"
@@ -55,9 +55,11 @@ const Footer = () => {
                     </div>
                 </div>
                 
-                <Logo />
+                <img class="logo logo--center" src="/assets/agencia-t9.svg" alt="Logo Agência T9" />
 
+            <a style={{margin: '0 auto'}} href="https://github.com/Kelvin-Jesus">Feito com ❤️ por <b>KJ</b></a>
             </div>
+
             
         </footer>
     );

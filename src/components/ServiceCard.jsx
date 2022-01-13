@@ -10,6 +10,8 @@ const ServiceCard = (props) => {
     return (
         <article className="service-card">
 
+            <a href={props.goToPage}>
+
             <header className="service-card__img-container">
                 <img 
                     loading="lazy"
@@ -31,6 +33,8 @@ const ServiceCard = (props) => {
                 />
 
             </main>
+
+            </a>
 
         </article>
     );
