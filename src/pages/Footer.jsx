@@ -37,7 +37,7 @@ const Footer = () => {
                             <i class="fab fa-instagram"></i>
                         </a>
                         <a
-                            href="https://facebook.com" 
+                            href="https://facebook.com/agenciat9" 
                             target="_blank" 
                             className="footer__socials__icon" 
                             rel="noreferrer"
@@ -45,12 +45,12 @@ const Footer = () => {
                             <i class="fab fa-facebook"></i>
                         </a>
                         <a
-                            href="https://twitter.com" 
+                            href="https://behance.net/agenciat9" 
                             target="_blank" 
                             className="footer__socials__icon" 
                             rel="noreferrer"
                         >
-                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-behance"></i>
                         </a>
                     </div>
                 </div>

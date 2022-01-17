@@ -21,6 +21,8 @@ const ServiceIdVisual = () => {
                 <div className="service-page__budget">Pedir Orçamento</div>
             </a>
 
+            <img class="logo logo--center" src="/assets/agencia-t9.svg" alt="Logo Agência T9" />
+
         </main>
     );
 }
